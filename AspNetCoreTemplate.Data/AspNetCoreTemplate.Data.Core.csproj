@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.0.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.0" PrivateAssets="All" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="EntityConfigurations\" />
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\AspNetCoreTemplate.Data.Common\AspNetCoreTemplate.Data.Common.csproj" />
+    <ProjectReference Include="..\AspNetCoreTemplate.Data.Domain\AspNetCoreTemplate.Data.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
