@@ -1,6 +1,6 @@
-# ASP NET CORE 2.0 Template #
-A base ASP.NET Template to start a new project.  
-This is: ASP.NET CORE 2.0, Entity Framework Core with Identity context and Repository and UnitOfWork patterns.  
+# ASP NET CORE 2.2 Template #
+ASP.NET Template to start a new project.  
+This is: ASP.NET CORE 2.2, Entity Framework Core with Identity context and Repository and UnitOfWork patterns.  
 
 Installation
 ---
